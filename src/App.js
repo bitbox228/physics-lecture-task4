@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Plot from 'react-plotly.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row, Col, Form, Button} from 'react-bootstrap';
@@ -108,6 +108,9 @@ const App = () => {
         setIndY(newIndY)
     }
 
+    useEffect(() => {
+        handlePlotUpdate()
+    })
 
     return (
         <div className={"container-fluid"}>
