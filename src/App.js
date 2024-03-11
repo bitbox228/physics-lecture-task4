@@ -110,7 +110,7 @@ const App = () => {
 
     useEffect(() => {
         handlePlotUpdate()
-    })
+    }, [])
 
     return (
         <div className={"container-fluid"}>
