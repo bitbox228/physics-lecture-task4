@@ -157,7 +157,7 @@ const App = () => {
                                 />
                             </Form.Group>
                         </div>
-                        <div style={{marginBottom: '10px'}}>
+                        <div style={{marginBottom: '20px'}}>
                             <Form.Group controlId="number5">
                                 <Form.Label>Время t (с)</Form.Label>
                                 <Form.Control
@@ -168,7 +168,9 @@ const App = () => {
                                 />
                             </Form.Group>
                         </div>
-                        <Button variant="primary" onClick={handlePlotUpdate}>Update Graph</Button>
+                        <div>
+                            <Button variant="primary" onClick={handlePlotUpdate}>Построить графики</Button>
+                        </div>
                     </Form>
                 </Col>
                 <Col xs={12} md={9}>
@@ -179,7 +181,7 @@ const App = () => {
                                 y: emfY,
                                 type: 'scatter',
                                 mode: 'lines+points',
-                                marker: {color: 'red'},
+                                marker: {color: 'blue'},
                             },
                         ]}
                         layout={{
