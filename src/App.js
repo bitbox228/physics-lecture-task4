@@ -127,7 +127,7 @@ const App = () => {
                         </div>
                         <div style={{marginBottom: '10px'}}>
                             <Form.Group controlId="s">
-                                <Form.Label>Площадь поперечного сечения проводника S (м<sup>2</sup>)</Form.Label>
+                                <Form.Label>Площадь поперечного сечения проводника, S (м<sup>2</sup>)</Form.Label>
                                 <Form.Control
                                     type="number"
                                     value={s}
@@ -137,7 +137,7 @@ const App = () => {
                         </div>
                         <div style={{marginBottom: '10px'}}>
                             <Form.Group controlId="number3">
-                                <Form.Label>Сопротивление R (Ом)</Form.Label>
+                                <Form.Label>Сопротивление, R (Ом)</Form.Label>
                                 <Form.Control
                                     type="number"
                                     name="number3"
@@ -148,7 +148,7 @@ const App = () => {
                         </div>
                         <div style={{marginBottom: '10px'}}>
                             <Form.Group controlId="number4">
-                                <Form.Label>Частота вращения f (Гц)</Form.Label>
+                                <Form.Label>Частота вращения, f (Гц)</Form.Label>
                                 <Form.Control
                                     type="number"
                                     name="number4"
@@ -159,7 +159,7 @@ const App = () => {
                         </div>
                         <div style={{marginBottom: '20px'}}>
                             <Form.Group controlId="number5">
-                                <Form.Label>Время t (с)</Form.Label>
+                                <Form.Label>Время, t (с)</Form.Label>
                                 <Form.Control
                                     type="number"
                                     name="number5"
